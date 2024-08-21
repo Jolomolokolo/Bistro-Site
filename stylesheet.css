@@ -1,0 +1,24 @@
+header {
+    overflow: hidden;
+    background-color: rgb(192, 192, 192);
+    padding: 10px 10px;
+}
+header a {
+    font-size: 35px;
+    letter-spacing: 5px;
+    margin: 0 45px;
+}
+
+.logo img {
+    width: 8rem;
+    height: 8rem;
+    float: right;
+    overflow: hidden;;
+}
+
+#now {
+    background-color: rgb(159, 119, 119);
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
