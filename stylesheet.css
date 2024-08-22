@@ -64,3 +64,25 @@ p, a, h1, h2, h3, h4, h5, h6, li, tr, th, td{
     margin: 20px 10px;
     border-radius: 20px;
 }
+
+.überuns {
+    background-color: rgb(192, 192, 192);
+    margin: 10px 10px;
+    padding: 10px 30px;
+    border-radius: 40px;
+}
+
+.überuns p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: auto;
+}
+
+.überuns h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: auto;
+    background-color: rgb(192, 192, 192);
+    padding: 5px 15px;
+    border-radius: 10px;
+}
