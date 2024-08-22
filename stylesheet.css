@@ -86,3 +86,27 @@ p, a, h1, h2, h3, h4, h5, h6, li, tr, th, td{
     padding: 5px 15px;
     border-radius: 10px;
 }
+
+.karriere p, li{
+    font-size: 1.5rem;
+    padding: 0 50px;
+}
+
+.error {
+    color: red;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 290px 500px;
+}
+
+.coupons {
+    background-color: rgb(192, 192, 192);
+    margin: 10px 10px;
+    padding: 10px 30px;
+    border-radius: 40px;
+}
+
+.coupons img {
+    padding: 10px;
+    margin: 20px 10px;
+}
