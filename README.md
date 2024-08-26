@@ -14,7 +14,7 @@ The Bistro Website project is designed to provide a user-friendly interface wher
 - Find answers to frequently asked questions about our services.
 - Get in touch with us for inquiries and feedback.
 
-You can view the live version of our website hosted on GitHub Pages here: [Bistro Website Live](https://jolomolokolo.github.io/bistro-site)
+You can view the live version of our website hosted on GitHub Pages here: [Bistro Website Live](https://jolomolokolo.github.io/Bistro-Site/)
 
 ## Getting Started
 
