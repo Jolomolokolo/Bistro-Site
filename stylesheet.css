@@ -1,8 +1,15 @@
+/* Allgemeine Stile */
+body, p, a, h1, h2, h3, h4, h5, h6, li, tr, th, td {
+    font-family: Arial;
+}
+
+/* Header */
 header {
     overflow: hidden;
     background-color: rgb(192, 192, 192);
-    padding: 10px 10px;
+    padding: 10px;
 }
+
 header a {
     font-size: 35px;
     letter-spacing: 5px;
@@ -13,14 +20,13 @@ header a {
     width: 8rem;
     height: 8rem;
     float: right;
-    overflow: hidden;;
 }
 
-#now {
-    background-color: rgb(159, 119, 119);
-    color: black;
-    padding: 5px 10px;
-    border-radius: 10px;
+/* Tabellen */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
 }
 
 th {
@@ -29,20 +35,57 @@ th {
     text-align: left;
 }
 
-table{
-    width: 100%;
-    border-collapse: collapse;
-    margin: 10px 0;
+/* Sektionen */
+.section-container {
+    background-color: rgb(192, 192, 192);
+    margin: 10px;
+    padding: 10px 30px;
+    border-radius: 40px;
 }
 
-.karriere h1, h3 {
+.karriere h1, .karriere h3, .überuns h1 {
     font-size: 2.5rem;
     font-weight: bold;
-    background-color: rgb(192, 192, 192);
+    background-color: inherit;
     padding: 5px 15px;
     border-radius: 10px;
-    text-align: auto;
 }
+
+.karriere p, .karriere li, .coupons p {
+    font-size: 1.5rem;
+    padding: 0 50px;
+}
+
+.überuns p {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Fehler und spezielle Stile */
+.error {
+    color: red;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 290px 500px;
+}
+
+/* Spezifische Elemente */
+#now {
+    background-color: rgb(159, 119, 119);
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#bildStart1 {
+    width: 60%;
+    height: 60%;
+    padding: 10px;
+    margin: 20px 10px;
+    border-radius: 20px;
+    background-color: inherit;
+}
+
 .underline {
     text-decoration: underline;
 }
@@ -52,81 +95,35 @@ table{
     font-size: 1.5rem;    
 }
 
-p, a, h1, h2, h3, h4, h5, h6, li, tr, th, td{
-    font-family: Arial;
-}
-
-#bildStart1 {
-    width: 60%;
-    height: 60%;
-    background-color: rgb(192, 192, 192);
-    padding: 10px;
-    margin: 20px 10px;
-    border-radius: 20px;
-}
-
-.überuns {
-    background-color: rgb(192, 192, 192);
-    margin: 10px 10px;
-    padding: 10px 30px;
-    border-radius: 40px;
-}
-
-.überuns p {
-    font-size: 2.5rem;
-    font-weight: bold;
-    text-align: auto;
-}
-
-.überuns h1 {
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: auto;
-    background-color: rgb(192, 192, 192);
-    padding: 5px 15px;
-    border-radius: 10px;
-}
-
-.karriere p, li{
-    font-size: 1.5rem;
-    padding: 0 50px;
-}
-
-.error {
-    color: red;
-    font-size: 1.5rem;
-    text-align: center;
-    margin: 290px 500px;
-}
-
-.coupons {
-    background-color: rgb(192, 192, 192);
-    margin: 10px 10px;
-    padding: 10px 30px;
-    border-radius: 40px;
-}
-
-.coupons img {
-    padding: 10px;
-    margin: 20px 10px;
-}
-.coupons h1, p {
-    font-size: 1rem;
-    font-weight: bold;
-    text-align: auto;
-}
-
-.grid-container {
+/* Grid-Layouts */
+.grid-container, .grid-cont {
     display: grid;
     grid-template-columns: auto auto;
     padding: 10px;
 }
 
+.grid-items {
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.grid-items img {
+    width: 50%;
+    border-radius: 20px;
+}
+
+/* Bild-Stile */
 .IMG {
     width: 70%;
     height: 70%;
     border-radius: 20px;
     margin: 10px 50px 10px 10px;
+}
+
+.coupons img {
+    padding: 10px;
+    margin: 20px 10px;
 }
 
 .coupons h1 {
@@ -139,27 +136,7 @@ p, a, h1, h2, h3, h4, h5, h6, li, tr, th, td{
     text-align: left;
 }
 
-.grid-cont {
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 10px;
-}
-
-.grid-items {
-    padding: 10px;
-    text-align: center;
-    margin: 10px 10px;
-}
-
-.grid-items img {
-    width: 50%;
-    border-radius: 20px;
-}
-
+/* Impressum */
 .impressum {
-    background-color: rgb(192, 192, 192);
-    margin: 10px 10px;
-    padding: 10px 30px;
-    border-radius: 40px;
     text-align: center;
 }
