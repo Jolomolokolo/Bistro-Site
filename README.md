@@ -14,10 +14,25 @@ The Bistro Website project is designed to provide a user-friendly interface wher
 - Find answers to frequently asked questions about our services.
 - Get in touch with us for inquiries and feedback.
 
-This repository includes all the code and resources needed to run the bistro’s website, and it's intended for developers who wish to contribute to or customize the site.
+You can view the live version of our website hosted on GitHub Pages here: [Bistro Website Live](https://jolomolokolo.github.io/bistro-site)
 
 ## Getting Started
 
 To get started with the Bistro Website project, follow the installation instructions below. If you encounter any issues or have questions, please check the [FAQ](#frequently-asked-questions-faq) section or reach out to us directly.
 
-Thank you for your interest in our bistro website. We hope you enjoy exploring and contributing to our project!
+### Installation Instructions
+
+```bash
+# Clone the Repository
+git clone https://github.com/yourusername/bistro-website.git
+
+# Navigate to the Project Directory
+cd bistro-website
+
+# Install Dependencies
+npm install
+
+# Start the Development Server
+npm start
+
+# The site will be available at http://localhost:3000 when running locally.
