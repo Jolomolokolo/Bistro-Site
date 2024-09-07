@@ -18,7 +18,21 @@ You can view the live version of our website hosted on GitHub Pages here: [Bistr
 
 ## Getting Started
 
-To get started with the Bistro Website project, follow the installation instructions below. If you encounter any issues or have questions, please check the [FAQ](#frequently-asked-questions-faq) section or reach out to us directly.
+To get started with the Bistro Website project, follow the installation instructions below. If you encounter any issues or have questions, please check reach out to us directly.
+
+## Images
+
+![Image-1](https://github.com/user-attachments/assets/c032a81f-0051-4887-82c8-0d8cdb486d6d)
+
+*An image from the start page of the "Bistro-Site". It shows a picture from the front and some text about the Bistro!*
+
+![Image-2](https://github.com/user-attachments/assets/eb49c497-3431-4653-8ced-e4ebcfb45b1a)
+
+*An image from the menu page. This time is the page in the English variant and shows all the different meals and snacks with some pictures of the food!*
+
+![Image-3](https://github.com/user-attachments/assets/50583247-746b-4a60-9d19-884a7a0f6d25)
+
+*An image from the information/FAQ site. It shows some general information, opening times, and customer reviews!*
 
 ### Installation Instructions
 
